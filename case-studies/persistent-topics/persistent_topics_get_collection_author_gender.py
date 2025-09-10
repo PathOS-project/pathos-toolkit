@@ -1,6 +1,6 @@
 """
 
-In this file we are going to get the gender from the authors of the collections used in the Emerging Topics Case Study.
+In this file we are going to get the gender from the authors of the collections used in the Impact of Open Access Colors on Topic Persistence Case Study.
 
 Date: 19/6/2024
 Collection: GROUP C

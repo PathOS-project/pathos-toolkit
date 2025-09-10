@@ -20,7 +20,7 @@ print("Loading data and preparing for PSM analyses...")
 print("=" * 80)
 
 # Create results directory
-results_path = 'PATH_TO_INDICATOR_RESULTS/emerging_topics_collection_w_outcomes/results'
+results_path = 'PATH_TO_INDICATOR_RESULTS/persistent_topics_collection_w_outcomes/results'
 os.makedirs(results_path, exist_ok=True)
 
 # Create visualizations subfolder
@@ -43,12 +43,12 @@ sns.set_palette([pathos_blue, pathos_orange])
 print('Loading the complete collection...')
 
 # Load the complete collection with all outcomes calculated
-complete_collection_df = pd.read_parquet('PATH_TO_INDICATOR_RESULTS/emerging_topics_collection_w_outcomes/complete_collection_df.parquet')
+complete_collection_df = pd.read_parquet('PATH_TO_INDICATOR_RESULTS/persistent_topics_collection_w_outcomes/complete_collection_df.parquet')
 
 print(f"Loaded collection with {len(complete_collection_df)} papers")
 
 # Load topic attribution dataframe for persistence scores
-topic_attribution_df = pd.read_parquet('PATH_TO_INDICATOR_RESULTS/emerging_topics_collection_w_outcomes/topic_attribution_df.parquet')
+topic_attribution_df = pd.read_parquet('PATH_TO_INDICATOR_RESULTS/persistent_topics_collection_w_outcomes/topic_attribution_df.parquet')
 
 print(f"Loaded topic attribution with {len(topic_attribution_df)} topic-paper pairs")
 

@@ -219,7 +219,7 @@ collection_df['patent_citations'] = collection_df['doi'].map(lambda x: len(doi_p
 
 OUTCOME: Affiliation Analysis
 
-NOTE: Please check "emerging_topics_find_paper_openaireids.py" and "emerging_topics_find_paper_affiliations.py"  for more details.
+NOTE: Please check "persistent_topics_find_paper_openaireids.py" and "persistent_topics_find_paper_affiliations.py"  for more details.
 
 NOTE: This affiliation analysis will be integrated into the SciNoBo toolkit.
 
@@ -608,8 +608,8 @@ complete_collection_df['isopenaccess'] = complete_collection_df['isopenaccess'].
 complete_collection_df = complete_collection_df[~((complete_collection_df['isopenaccess'].isin([False, None])) & (complete_collection_df['funding_h2020'].isin([True, None])))]
 
 # Save the complete collection df as an excel file and as a parquet file
-complete_collection_df.to_excel(os.path.join('PATH_TO_INDICATOR_RESULTS/emerging_topics_collection_w_outcomes', 'complete_collection_df.xlsx'), index=False)
-complete_collection_df.to_parquet(os.path.join('PATH_TO_INDICATOR_RESULTS/emerging_topics_collection_w_outcomes', 'complete_collection_df.parquet'), index=False)
+complete_collection_df.to_excel(os.path.join('PATH_TO_INDICATOR_RESULTS/persistent_topics_collection_w_outcomes', 'complete_collection_df.xlsx'), index=False)
+complete_collection_df.to_parquet(os.path.join('PATH_TO_INDICATOR_RESULTS/persistent_topics_collection_w_outcomes', 'complete_collection_df.parquet'), index=False)
 
 
 """ CREATE TOPIC ATTRIBUTION DATAFRAME -- create a topic attribution df that will have as rows L5 topics (multiple times) and the papers with their calculations - so that we can do pivot tables on them """
@@ -773,5 +773,5 @@ print(f"Topic persistence scores calculated for {len(persistence_scores)} topics
 """ Save the topic attribution dataframe with the persistence scores """
 
 # Save the topic attribution dataframe
-topic_attribution_df.to_excel(os.path.join('PATH_TO_INDICATOR_RESULTS/emerging_topics_collection_w_outcomes', 'topic_attribution_df.xlsx'), index=False)
-topic_attribution_df.to_parquet(os.path.join('PATH_TO_INDICATOR_RESULTS/emerging_topics_collection_w_outcomes', 'topic_attribution_df.parquet'), index=False)
+topic_attribution_df.to_excel(os.path.join('PATH_TO_INDICATOR_RESULTS/persistent_topics_collection_w_outcomes', 'topic_attribution_df.xlsx'), index=False)
+topic_attribution_df.to_parquet(os.path.join('PATH_TO_INDICATOR_RESULTS/persistent_topics_collection_w_outcomes', 'topic_attribution_df.parquet'), index=False)

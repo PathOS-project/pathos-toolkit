@@ -2,7 +2,7 @@
 
 ## Available Data in Zenodo
 
-The processed datasets and analysis results for this Emerging Topics case study are available in Zenodo:
+The processed datasets and analysis results for this Impact of Open Access Colors on Topic Persistence case study are available in Zenodo:
 
 **DOI**: [10.5281/zenodo.17048589](https://doi.org/10.5281/zenodo.17048589)
 
@@ -30,7 +30,7 @@ The processed datasets and analysis results for this Emerging Topics case study 
 - **Control variables**: FWCI scores, interdisciplinarity measures, author characteristics
 
 ### Sample Characteristics:
-- **Total sample**: 132,134 papers from emerging topics research (2000-2021)
+- **Total sample**: 132,134 papers
 - **Green OA only**: 3,792 papers
 - **Published OA only**: 19,045 papers
 - **Closed Access**: 92,998 papers
@@ -75,14 +75,14 @@ The following large-scale data sources are required for full reproduction but ar
 
 ### For Replication:
 1. Load the complete collection dataset from Zenodo
-2. Run `emerging_topics_calculate_indicators.py` for PSM analysis
-3. Run `emerging_topics_calculate_indicators_sdg.py` for SDG-focused analysis
-4. Generate visualizations using `emerging_topics_indicators_create_data_for_vis.py`
+2. Run `persistent_topics_calculate_indicators.py` for PSM analysis
+3. Run `persistent_topics_calculate_indicators_sdg.py` for SDG-focused analysis
+4. Generate visualizations using `persistent_topics_indicators_create_data_for_vis.py`
 
 ### For Full Reproduction from Scratch:
 1. Obtain access to all external data sources listed above
 2. Configure path variables in all analysis scripts
-3. Run the complete data collection pipeline starting with `emerging_topics_create_collection.py`
+3. Run the complete data collection pipeline starting with `persistent_topics_create_collection.py`
 4. Execute affiliation and OpenAIRE ID matching scripts
 5. Run gender classification analysis
 6. Proceed with indicator calculation and analysis

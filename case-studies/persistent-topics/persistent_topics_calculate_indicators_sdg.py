@@ -20,7 +20,7 @@ print("Loading results and integrating SDG classification...")
 print("=" * 80)
 
 # Create results directory for SDG analysis
-results_path = 'PATH_TO_INDICATOR_RESULTS/emerging_topics_collection_w_outcomes/results_sdg_only'
+results_path = 'PATH_TO_INDICATOR_RESULTS/persistent_topics_collection_w_outcomes/results_sdg_only'
 os.makedirs(results_path, exist_ok=True)
 
 # Create subfolder structure
@@ -40,12 +40,12 @@ sns.set_palette(pathos_colors)
 print('Loading analysis results...')
 
 # Load the complete collection with outcomes
-collection_results_path = 'PATH_TO_INDICATOR_RESULTS/emerging_topics_collection_w_outcomes/results'
-complete_collection_df = pd.read_parquet('PATH_TO_INDICATOR_RESULTS/emerging_topics_collection_w_outcomes/complete_collection_df.parquet')
+collection_results_path = 'PATH_TO_INDICATOR_RESULTS/persistent_topics_collection_w_outcomes/results'
+complete_collection_df = pd.read_parquet('PATH_TO_INDICATOR_RESULTS/persistent_topics_collection_w_outcomes/complete_collection_df.parquet')
 
 # Load topic attribution for topic persistence scores
 try:
-    topic_attribution_df = pd.read_parquet('PATH_TO_INDICATOR_RESULTS/emerging_topics_collection_w_outcomes/topic_attribution_df.parquet')
+    topic_attribution_df = pd.read_parquet('PATH_TO_INDICATOR_RESULTS/persistent_topics_collection_w_outcomes/topic_attribution_df.parquet')
     
     # Create mapping from paper ID to topic persistence score
     topic_persistence_map = {}

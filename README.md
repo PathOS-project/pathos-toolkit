@@ -13,7 +13,7 @@ pathos-toolkit/
 ├── README.md                    # This file
 ├── case-studies/               # Individual case study implementations
 │   ├── covid-19/              # COVID-19 research impact analysis
-│   ├── emerging-topics/       # AI-for-Climate topic persistence study
+│   ├── persistent-topics/       # AI-for-Climate topic persistence study
 │   └── [additional-studies]/  # Future case studies
 ├── case-study-template/       # Template files for new case studies
 │   ├── README.md             # Case study documentation template
@@ -24,14 +24,14 @@ pathos-toolkit/
 
 ## Case Studies
 
-### COVID-19 Research Impact
+### Impact of Artefact Reuse in COVID-19 Publications
 **Location**: `case-studies/covid-19/`
 **Focus**: Relationship between research artifact reuse and clinical impact in COVID-19 research
 **Sample**: 115,467 COVID-19 papers that created research artifacts
 **Key Finding**: Papers with evidence of artifact reuse achieve significantly greater downstream clinical impact
 
-### Emerging Topics: AI-for-Climate
-**Location**: `case-studies/emerging-topics/`
+### Impact of Open Access Colors on Topic Persistence
+**Location**: `case-studies/persistent-topics/`
 **Focus**: Effects of Open Access routes on topic persistence in AI-for-Climate research
 **Sample**: 132,134 papers from emerging research topics (2000-2021)
 **Key Innovation**: Novel "topic persistence" metric for measuring long-term scientific relevance

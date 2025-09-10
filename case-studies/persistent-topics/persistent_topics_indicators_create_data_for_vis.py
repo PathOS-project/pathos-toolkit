@@ -14,14 +14,14 @@ pathos_red = '#F44336'     # Red for refuting
 pathos_colors = [pathos_blue, pathos_orange]
 sns.set_palette([pathos_blue, pathos_orange])
 
-print("Loading Emerging Topics Case Study data...")
+print("Loading Impact of Open Access Colors on Topic Persistence Case Study data...")
 
 # Load the main results and datasets
-data_path = 'PATH_TO_INDICATOR_RESULTS/emerging_topics_collection_w_outcomes/results'
-complete_collection_df = pd.read_parquet('PATH_TO_INDICATOR_RESULTS/emerging_topics_collection_w_outcomes/complete_collection_df.parquet')
+data_path = 'PATH_TO_INDICATOR_RESULTS/persistent_topics_collection_w_outcomes/results'
+complete_collection_df = pd.read_parquet('PATH_TO_INDICATOR_RESULTS/persistent_topics_collection_w_outcomes/complete_collection_df.parquet')
 
 # Create final visualization directory
-final_viz_path = 'PATH_TO_INDICATOR_RESULTS/emerging_topics_collection_w_outcomes/results/final_visualization_data_figures'
+final_viz_path = 'PATH_TO_INDICATOR_RESULTS/persistent_topics_collection_w_outcomes/results/final_visualization_data_figures'
 os.makedirs(final_viz_path, exist_ok=True)
 
 # Create subdirectories for organization
@@ -519,7 +519,7 @@ for i in range(len(summary_df.columns)):
     table[(0, i)].set_text_props(weight='bold', color='white')
 
 ax.axis('off')
-ax.set_title('Emerging Topics Case Study: Key Statistics Summary', fontsize=16, fontweight='bold', pad=20)
+ax.set_title('Impact of Open Access Colors on Topic Persistence Case Study: Key Statistics Summary', fontsize=16, fontweight='bold', pad=20)
 
 plt.savefig(os.path.join(viz_path, '10_summary_statistics_table.png'), dpi=300, bbox_inches='tight')
 plt.close()

@@ -1,6 +1,6 @@
-# Emerging Topics Case Study: Open Access Effects on Scientific Impact and Topic Persistence
+# Impact of Open Access Colors on Topic Persistence Case Study: Open Access Effects on Scientific Impact and Topic Persistence
 
-This repository contains the data, scripts, and results for the EMERGING TOPICS case study, part of the PATHOS project.
+This repository contains the data, scripts, and results for the Impact of Open Access Colors on Topic Persistence case study, part of the PATHOS project.
 
 ## Overview
 
@@ -21,13 +21,13 @@ Bronze OA and dual-mode publications are excluded to preserve clean treatment de
 ```
 ├── README.md                                          # This file
 ├── fos_taxonomy_v0.1.2.json                         # SciNoBo Field of Science taxonomy data
-├── emerging_topics_create_collection.py              # Main data collection and integration script
-├── emerging_topics_find_paper_openaireids.py        # OpenAIRE ID matching for papers
-├── emerging_topics_find_paper_affiliations.py       # Affiliation analysis using OpenAIRE data
-├── emerging_topics_get_collection_author_gender.py  # Gender classification of authors
-├── emerging_topics_calculate_indicators.py          # Main causal inference analysis
-├── emerging_topics_calculate_indicators_sdg.py      # SDG-focused analysis
-├── emerging_topics_indicators_create_data_for_vis.py # Visualization data preparation
+├── persistent_topics_create_collection.py              # Main data collection and integration script
+├── persistent_topics_find_paper_openaireids.py        # OpenAIRE ID matching for papers
+├── persistent_topics_find_paper_affiliations.py       # Affiliation analysis using OpenAIRE data
+├── persistent_topics_get_collection_author_gender.py  # Gender classification of authors
+├── persistent_topics_calculate_indicators.py          # Main causal inference analysis
+├── persistent_topics_calculate_indicators_sdg.py      # SDG-focused analysis
+├── persistent_topics_indicators_create_data_for_vis.py # Visualization data preparation
 └── emering_topics_collection_w_outcomes/            # Results directory
     ├── complete_collection_df.parquet                # Main dataset with all outcomes
     ├── complete_collection_df.xlsx                   # Excel version of main dataset
@@ -105,7 +105,7 @@ Bronze OA and dual-mode publications are excluded to preserve clean treatment de
 
 ### Core Data Processing Scripts
 
-**`emerging_topics_create_collection.py`**
+**`persistent_topics_create_collection.py`**
 - Main data integration script that combines all outcome measures
 - Loads papers from Semantic Scholar Academic Graph (PATH_TO_INTERMEDIATE_RESULTS)
 - Integrates FWCI scores, gender diversity, SDG classification, FOS topics
@@ -113,21 +113,21 @@ Bronze OA and dual-mode publications are excluded to preserve clean treatment de
 - Conducts affiliation analysis using OpenAIRE and ROR data
 - Creates final complete collection with all calculated outcomes
 
-**`emerging_topics_find_paper_openaireids.py`**
+**`persistent_topics_find_paper_openaireids.py`**
 - Maps DOIs to OpenAIRE identifiers for affiliation analysis
 - Requires OpenAIRE Graph dump (PATH_TO_OAIRE_DUMP)
 
-**`emerging_topics_find_paper_affiliations.py`**
+**`persistent_topics_find_paper_affiliations.py`**
 - Extracts institutional affiliations using OpenAIRE data
 - Performs science-industry collaboration analysis using ROR data
 
-**`emerging_topics_get_collection_author_gender.py`**
+**`persistent_topics_get_collection_author_gender.py`**
 - Classifies author gender using machine learning models
 - Creates gender diversity indicators for publications
 
 ### Analysis Scripts
 
-**`emerging_topics_calculate_indicators.py`**
+**`persistent_topics_calculate_indicators.py`**
 - Main causal inference analysis using propensity score matching
 - Implements two separate PSM analyses:
   - Green OA vs Closed Access
@@ -135,19 +135,19 @@ Bronze OA and dual-mode publications are excluded to preserve clean treatment de
 - Calculates treatment effects on multiple outcomes including topic persistence
 - Generates matched samples and balance diagnostics
 
-**`emerging_topics_calculate_indicators_sdg.py`**
+**`persistent_topics_calculate_indicators_sdg.py`**
 - SDG-focused analysis using existing matched samples
 - Analyzes differential effects for sustainability-related research
 - Creates SDG-specific visualizations and tables
 
-**`emerging_topics_indicators_create_data_for_vis.py`**
+**`persistent_topics_indicators_create_data_for_vis.py`**
 - Prepares final visualization data and publication-ready figures
 - Creates comprehensive data exports for external visualization tools
 
 ## Key Findings
 
 ### Sample Characteristics
-- **Total sample**: 132,134 papers from emerging topics research (2000-2021)
+- **Total sample**: 132,134 papers
 - **Green OA only**: 3,792 papers
 - **Published OA only**: 19,045 papers
 - **Closed Access**: 92,998 papers
