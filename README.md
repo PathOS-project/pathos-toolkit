@@ -30,7 +30,7 @@ pathos-toolkit/
 **Sample**: 115,467 COVID-19 papers that created research artifacts
 **Key Finding**: Papers with evidence of artifact reuse achieve significantly greater downstream clinical impact
 
-### Impact of Open Access Colors on Topic Persistence
+### Impact of Open Access Routes on Topic Persistence
 **Location**: `case-studies/persistent-topics/`
 **Focus**: Effects of Open Access routes on topic persistence in AI-for-Climate research
 **Sample**: 132,134 papers from emerging research topics (2000-2021)

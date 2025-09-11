@@ -441,7 +441,7 @@ for i in range(len(summary_df.columns)):
     table[(0, i)].set_text_props(weight='bold', color='white')
 
 ax.axis('off')
-ax.set_title('COVID-19 Case Study: Key Statistics Summary', fontsize=16, fontweight='bold', pad=20)
+ax.set_title('Impact of Artefact Reuse in COVID-19 Publications Case Study: Key Statistics Summary', fontsize=16, fontweight='bold', pad=20)
 
 plt.savefig(os.path.join(viz_path, '11_summary_statistics_table.png'), dpi=300, bbox_inches='tight')
 plt.close()

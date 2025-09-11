@@ -2,7 +2,7 @@
 
 ## Available Data in Zenodo
 
-The processed datasets and analysis results for this COVID-19 case study are available in Zenodo:
+The processed datasets and analysis results for this Impact of Artefact Reuse in COVID-19 Publications case study are available in Zenodo:
 
 **DOI**: [10.5281/zenodo.17046920](https://doi.org/10.5281/zenodo.17046920)
 

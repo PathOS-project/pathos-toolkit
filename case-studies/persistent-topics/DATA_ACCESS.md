@@ -2,7 +2,7 @@
 
 ## Available Data in Zenodo
 
-The processed datasets and analysis results for this Impact of Open Access Colors on Topic Persistence case study are available in Zenodo:
+The processed datasets and analysis results for this Impact of Open Access Routes on Topic Persistence case study are available in Zenodo:
 
 **DOI**: [10.5281/zenodo.17048589](https://doi.org/10.5281/zenodo.17048589)
 

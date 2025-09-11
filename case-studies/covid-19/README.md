@@ -1,6 +1,6 @@
-# COVID-19 Research Data, Code, and Analysis Results
+# Impact of Artefact Reuse in COVID-19 Publications Research Data, Code, and Analysis Results
 
-This repository contains the complete dataset, analysis scripts, and results for the COVID-19 case study.
+This repository contains the complete dataset, analysis scripts, and results for the Impact of Artefact Reuse in COVID-19 Publications case study.
 
 ## Overview
 

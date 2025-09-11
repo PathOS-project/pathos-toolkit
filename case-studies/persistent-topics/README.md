@@ -1,6 +1,6 @@
-# Impact of Open Access Colors on Topic Persistence Case Study: Open Access Effects on Scientific Impact and Topic Persistence
+# Impact of Open Access Routes on Topic Persistence Case Study: Open Access Effects on Scientific Impact and Topic Persistence
 
-This repository contains the data, scripts, and results for the Impact of Open Access Colors on Topic Persistence case study, part of the PATHOS project.
+This repository contains the data, scripts, and results for the Impact of Open Access Routes on Topic Persistence case study, part of the PATHOS project.
 
 ## Overview
 

@@ -12,7 +12,7 @@ import pandas as pd
 from tqdm import tqdm
 
 # Load all the parquet files for GROUP C
-# NOTE: This requires access to the papers that we identified for the Impact of Open Access Colors on Topic Persistence case study using Semantic Scholar and SciNoBo
+# NOTE: This requires access to the papers that we identified for the Impact of Open Access Routes on Topic Persistence case study using Semantic Scholar and SciNoBo
 p_files = sorted(glob.glob('PATH_TO_INTERMEDIATE_RESULTS/papers_emergingtopics_group_C/*.parquet'))
 papers_emergingtopics_group_C_df = pd.concat([pd.read_parquet(p_file) for p_file in p_files]).drop_duplicates(['id'])
 

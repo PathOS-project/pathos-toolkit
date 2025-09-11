@@ -14,7 +14,7 @@ from tqdm import tqdm, trange
 """ LOAD THE PAPERS """
 
 # Read the folder with the parquet files
-# NOTE: This requires access to the papers that we identified for the Covid-19 case study using CORD-19 and Semantic Scholar
+# NOTE: This requires access to the papers that we identified for the Impact of Artefact Reuse in COVID-19 Publications case study using CORD-19 and Semantic Scholar
 p_files = sorted(glob.glob('PATH_TO_SS_COVID_PAPERS/*.parquet'))
 
 # Load all the parquet files
