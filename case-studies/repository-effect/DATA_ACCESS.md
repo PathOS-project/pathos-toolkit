@@ -2,7 +2,7 @@
 
 ## Data Availability
 
-**Zenodo DOI**: [10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX)
+**Zenodo DOI**: [10.5281/zenodo.17140194](https://doi.org/10.5281/zenodo.17140194)
 
 ### What's Available in Zenodo
 - Processed datasets used for analysis
