@@ -12,8 +12,9 @@ The PathOS (Pathways to Open Science) project investigates how Open Science beha
 pathos-toolkit/
 ├── README.md                    # This file
 ├── case-studies/               # Individual case study implementations
-│   ├── covid-19/              # COVID-19 research impact analysis
-│   ├── persistent-topics/       # AI-for-Climate topic persistence study
+│   ├── covid-19/              # Impact of Artefact Reuse in COVID-19 Publications
+│   ├── persistent-topics/       # Impact of Open Access Routes on Topic Persistence
+│   ├── repository-effect/       # Effects of Data Repositories on Data Usage
 │   └── [additional-studies]/  # Future case studies
 ├── case-study-template/       # Template files for new case studies
 │   ├── README.md             # Case study documentation template
@@ -35,6 +36,12 @@ pathos-toolkit/
 **Focus**: Effects of Open Access routes on topic persistence in AI-for-Climate research
 **Sample**: 132,134 papers from emerging research topics (2000-2021)
 **Key Innovation**: Novel "topic persistence" metric for measuring long-term scientific relevance
+
+### Effects of Data Repositories on Data Usage
+**Location**: `case-studies/repository-effect/`
+**Focus**: Impact of data repositories on subsequent data reuse and scientific impact in the Social Sciences and Humanities (SSH)
+**Sample**: Mixed-method study combining (1) quantitative data citation corpus analysis (278,922 datasets), (2) algorithmic and manual data mention extraction (162 SSH publications), and (3) qualitative interviews with SSH researchers
+**Key Finding**: Data reuse likelihood varies across repositories — specialised and curated repositories show higher reuse, while algorithmic detection of reuse in SSH is often unreliable due to low precision
 
 ## Data Philosophy
 
