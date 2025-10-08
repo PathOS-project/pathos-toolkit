@@ -26,22 +26,22 @@ pathos-toolkit/
 ## Case Studies
 
 ### Impact of Artefact Reuse in COVID-19 Publications
-**Location**: `case-studies/covid-19/`
-**Focus**: Relationship between research artifact reuse and clinical impact in COVID-19 research
-**Sample**: 115,467 COVID-19 papers that created research artifacts
-**Key Finding**: Papers with evidence of artifact reuse achieve significantly greater downstream clinical impact
+- **Location**: `case-studies/covid-19/`
+- **Focus**: Relationship between research artifact reuse and clinical impact in COVID-19 research
+- **Sample**: 115,467 COVID-19 papers that created research artifacts
+- **Key Finding**: Papers with evidence of artifact reuse achieve significantly greater downstream clinical impact
 
 ### Impact of Open Access Routes on Topic Persistence
-**Location**: `case-studies/persistent-topics/`
-**Focus**: Effects of Open Access routes on topic persistence in AI-for-Climate research
-**Sample**: 132,134 papers from emerging research topics (2000-2021)
-**Key Innovation**: Novel "topic persistence" metric for measuring long-term scientific relevance
+- **Location**: `case-studies/persistent-topics/`
+- **Focus**: Effects of Open Access routes on topic persistence in AI-for-Climate research
+- **Sample**: 132,134 papers from emerging research topics (2000-2021)
+- **Key Innovation**: Novel "topic persistence" metric for measuring long-term scientific relevance
 
 ### Effects of Data Repositories on Data Usage
-**Location**: `case-studies/repository-effect/`
-**Focus**: Impact of data repositories on subsequent data reuse and scientific impact in the Social Sciences and Humanities (SSH)
-**Sample**: Mixed-method study combining (1) quantitative data citation corpus analysis (278,922 datasets), (2) algorithmic and manual data mention extraction (162 SSH publications), and (3) qualitative interviews with SSH researchers
-**Key Finding**: Data reuse likelihood varies across repositories — specialised and curated repositories show higher reuse, while algorithmic detection of reuse in SSH is often unreliable due to low precision
+- **Location**: `case-studies/repository-effect/`
+- **Focus**: Impact of data repositories on subsequent data reuse and scientific impact in the Social Sciences and Humanities (SSH)
+- **Sample**: Mixed-method study combining (1) quantitative data citation corpus analysis (278,922 datasets), (2) algorithmic and manual data mention extraction (162 SSH publications), and (3) qualitative interviews with SSH researchers
+- **Key Finding**: Data reuse likelihood varies across repositories — specialised and curated repositories show higher reuse, while algorithmic detection of reuse in SSH is often unreliable due to low precision
 
 ## Data Philosophy
 
