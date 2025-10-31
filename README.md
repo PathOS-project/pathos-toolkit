@@ -13,6 +13,7 @@ pathos-toolkit/
 ├── README.md                    # This file
 ├── case-studies/               # Individual case study implementations
 │   ├── covid-19/              # Impact of Artefact Reuse in COVID-19 Publications
+│   ├── french-case-study/     # Open Science Access Analysis via Connection Logs
 │   ├── persistent-topics/       # Impact of Open Access Routes on Topic Persistence
 │   ├── repository-effect/       # Effects of Data Repositories on Data Usage
 │   └── [additional-studies]/  # Future case studies
@@ -30,6 +31,13 @@ pathos-toolkit/
 - **Focus**: Relationship between research artifact reuse and clinical impact in COVID-19 research
 - **Sample**: 115,467 COVID-19 papers that created research artifacts
 - **Key Finding**: Papers with evidence of artifact reuse achieve significantly greater downstream clinical impact
+
+### Open Science Access Analysis via Connection Logs (French Case Study)
+- **Location**: `case-studies/french-case-study/`
+- **Focus**: Analysis of access patterns to open and closed scientific publications using HAL and OpenEdition connection logs
+- **Sample**: One year of connection logs from HAL (Sept 2023-Aug 2024) and OpenEdition journals (Jan-Dec 2023)
+- **Key Innovation**: [Log Explorer](https://pathos.cis.cnrs.fr/) web application for investigating Open Access Advantage across academic disciplines, socio-economic sectors, and countries
+- **Methodology**: Enriched connection logs with DOI-based resource matching (OpenAlex) and IP-based user classification (IPinfo + Llama 3.3 NACE classification)
 
 ### Impact of Open Access Routes on Topic Persistence
 - **Location**: `case-studies/persistent-topics/`
@@ -77,6 +85,9 @@ The PathOS toolkit develops and implements several methodological innovations:
 - **Novel impact metrics** beyond traditional bibliometric measures
 - **Clean treatment definitions** for different Open Science practices
 - **Reproducible analysis pipelines** for large-scale bibliometric studies
+- **Connection log analysis** for measuring real-time access patterns to scientific publications
+- **Open Access Advantage metrics** for quantifying differential access to open vs. closed publications
+- **AI-powered classification systems** for automated socio-economic sector identification
 
 ## Key External Dependencies
 
@@ -87,6 +98,12 @@ Most PathOS case studies utilize these external data sources:
 - **PATSTAT**: Patent citation data (commercial license)
 - **ROR**: Research organization classifications
 - **SciNoBo Toolkit**: Specialized bibliometric indicators
+
+### French Case Study Specific Dependencies:
+- **HAL & OpenEdition**: Connection log data (requires authorization)
+- **OpenAlex**: Publication metadata and DOI matching
+- **IPinfo Academic Research Program**: IP geolocation and organization data
+- **Eurostat NACE Rev. 2.1**: Economic activity classification system
 
 See individual case study documentation for specific requirements.
 
