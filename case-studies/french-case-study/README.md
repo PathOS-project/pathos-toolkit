@@ -1,7 +1,5 @@
 # French Case Study : Exploring OpenEdition & HAL Connection Logs
 
-[TOC]
-
 This folder contains the code, documentation, and analysis results for the French case study, which is part of the PathOS project.
 
 ## Full Code Repositories
